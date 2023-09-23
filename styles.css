@@ -1,0 +1,192 @@
+/*added a background color to the page*/
+body {
+    background-color: rgb(235, 220, 198); 
+}
+/*Set the size of the logo picture and adjusted a little to the left*/
+.logo {
+    width: 400px;
+    margin-right: 30rem;
+    margin-left: 15rem;
+}
+/*Adjusted my navigation links on the page*/
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+/*Change the color of my h1 text and adjusted to the center of the page*/
+h1 {
+    text-align: center;
+    color: rgb(102, 59, 2);
+}
+/*Styled the color and font size of the links*/
+.pages a {
+    color: rgb(223, 148, 99);
+    font-size: 30px;
+    margin: 0.5rem;
+}
+/*Removed the underline of the links and gave it a background color*/
+a:link {
+    text-decoration: none;
+    background-color: rgba(102, 59, 2, 0.048);
+}
+/*Styled the text and background color for when you hover on*/
+a:hover {
+    color: rgb(102, 59, 2);
+    text-decoration: none;
+    background-color: rgb(223, 148, 99);
+}
+/*Created a section with a background color and round edges for my p and img elements*/
+.about-me {
+    color: rgb(102, 59, 2);
+    background-color: #abd2d481;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    border-radius: 3rem;
+    height: 450px;
+    margin: 5rem 4rem 5rem 7rem;
+}
+/*Styled my p element text*/
+.first-p {
+    max-width: 500px;
+    height: 150px;
+    font-size: larger;
+    text-align: justify;
+    margin: auto;
+    margin-left: -13rem;
+}
+/*Styled my h2 element*/
+.first-h2 {
+    height: 300px;
+    display: flex;
+    margin: auto;
+    
+}
+/*Styled my img, gave it round edges as well*/
+.holding-puppy {
+    border-radius: 5rem;
+    display: flex;
+    margin-left: 2rem;
+    height: 380px;
+}
+/*Created a section with a background color and round edges for my p and img elements*/
+.mission-vision {
+    color: rgb(102, 59, 2);
+    background-color: #abd2d481;
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    border-radius: 3rem;
+    height: 450px;
+    margin: 5rem 4rem 5rem 37rem;
+}
+/*Styled my second h2 element*/
+.second-h2 {
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+/*Styled my second p element*/
+.second-p {
+    max-width: 500px;
+    height: 150px;
+    font-size: larger;
+    text-align: justify;
+    margin: auto;
+    margin-left: -16rem;
+}
+/*Styled my img, gave it round edges as well*/
+.german-shepperd {
+    border-radius: 5rem;
+    width: 450px;
+    display: flex;
+    margin-right: 2rem;
+}
+/*Changed the color and aligment of my h2 and h4 elements*/
+h2, h4 {
+    color: rgb(223, 148, 99);
+    text-align: center;
+}
+/*Styled my unordered list*/
+.services {
+    font-size: 25px;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    list-style-type: none;
+}
+/*Adjusted my list to the center of the page*/
+.service-list {
+    display: flex;
+    justify-content: center;
+}
+/*Styled my img, gave it round edges*/
+.dogs-walking {
+    width: 500px;
+    border-radius: 10rem;
+    margin: auto;
+    padding: 1rem;
+    height: 300px;
+}
+/*Styled my table, changed text color and font size*/
+.price-table {
+  font-size: 1.5em;
+  border-collapse: collapse;
+  margin: 25px 0;
+  color: rgb(102, 59, 2);
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Gave some color to my table head*/
+.price-table thead tr {
+    background-color: #d77504cf;
+    text-align: left;
+}
+/*Space it out the items in the table*/
+.price-table th,
+.price-table td {
+    padding: 12px 30px;
+}
+/*Styled my table with borders and lines*/
+.price-table tbody tr {
+    border-bottom: 1px solid black;
+    border-left: 2px solid #d77504cf;
+    border-right: 2px solid #d77504cf;
+}
+/*Changed the color of the last line*/
+.price-table tbody tr:last-of-type {
+    border-bottom: 2px solid #d77504cf;
+}
+/*Styled my form, gave it a background color, round edges and a larger font size*/
+form {
+    background-color: #abd2d481;
+    padding: 2rem;
+    max-width: 800px;
+    text-align: justify;
+    font-size: larger;
+    margin: 0.5rem auto;
+    border-radius: 2rem;
+}
+/*Changed the size of my form inputs*/
+form input {
+    font-size: 1em;
+    width: 40%;
+}
+/*Styled my checkbox options to align on the same line*/
+#walk, #boarding, #visit, #overnight, #taxi {
+    width: 5%;
+}
+/*Styled my send button*/
+button {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: rgb(223, 148, 99);
+    font-size: larger;
+    border-radius: 1rem;
+    border-color: rgba(223, 149, 99, 0.637);
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubs&Hugs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- div containing the navigation links -->
+    <div class="header">
+        <img class="logo" src="logo2.PNG" alt="rubs&hugs logo">
+        <div class="pages">
+            <a href="home.html">Home</a>
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <h1>Contact Us</h1>
+    <hr>
+
+    <h2>Awoo! We're happy to see you here!</h2>
+    <h4>(Our tails are wagging already!)</h4><br><br>
+     <!-- Contact form -->        
+    <form>  
+        <!-- Owner's information -->
+        <label for="oname">Owner's name:</label>
+        <input type="text" id="oname" name="oname"><br><br>
+        <label for="number">Phone number:</label>
+        <input type="text" id="number" name="number"><br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <!-- Pet information -->
+        <label for="aname">Pet name:</label>
+        <input type="text" id="aname" name="aname">
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed"><br><br>
+        <label for="size">Size (dog only):</label>
+        <select name="size" id="size">
+            <option value="small">Small (< 24lbs)</option>
+            <option value="medium">Medium (25lbs - 59lbs)</option>
+            <option value="large">Large (> 60lbs)</option>
+        </select><br><br>
+         <!-- Services checkboxes -->
+        <label for="service">Service requested:</label><br>
+        <input type="checkbox" id="walk" name="walk" value="dogwalk">
+        <label for="walk">Dog Walk</label>
+        <input type="checkbox" id="boarding" name="boarding" value="dogboarding">
+        <label for="boarding">Dog Boarding</label>
+        <input type="checkbox" id="visit" name="visit" value="checkinvisit">
+        <label for="visit">Check-in Visit</label>
+        <input type="checkbox" id="overnight" name="overnight" value="overnightstay">
+        <label for="overnight">Overnight Stay</label>
+        <input type="checkbox" id="taxi" name="taxi" value="pettaxi">
+        <label for="taxi">Pet Taxi</label><br><br>
+        <!-- Date & Time input -->
+        <label for="time">Date & Time:</label>
+        <input type="datetime-local" id="time" name="time"><br><br>
+        <!-- Message textarea -->
+        <label for="message">Send us a message with questions, details and/or any of your pet's information that we should know.<br> 
+        We'll send an email confirming the appointment soon.</label><br><br>
+        <textarea id="message" name="message" rows="8" cols="100"></textarea><br><br>
+    </form>
+    <!-- Submit button -->
+    <button type="submit">Send</button>
+</body>
+</html>
